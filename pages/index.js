@@ -1,20 +1,20 @@
-import {Container, Box, Heading} from '@chakra-ui/react'
+import { Container, Box, Heading } from '@chakra-ui/react'
 
 const Page = () => {
- return (
+  return (
     <Container>
-        <Box borderRadius="lg" bg="red" p={3} mb={6} align="center">
+      <Box borderRadius="lg" bg="red" p={3} mb={6} align="center">
         Hello, I&apos;m a um full designer and frontend based in Brazil
-        </Box>
+      </Box>
 
-        <Box display={{md:'flex'}}>
-            <Box flexGrow={1}>
-                <Heading as="h2" variant="page-title">
-Felipe Genuino
-                </Heading>
-            </Box>
+      <Box display={{ md: 'flex' }}>
+        <Box flexGrow={1}>
+          <Heading as="h2" variant="page-title">
+            Felipe Genuino
+          </Heading>
         </Box>
+      </Box>
     </Container>
- )
+  )
 }
 export default Page
